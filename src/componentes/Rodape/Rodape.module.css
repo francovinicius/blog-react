@@ -6,4 +6,11 @@
     justify-content: center;
     align-items: center;
     column-gap: .5rem;
+    font-size: 12px;
+    
+}
+
+span {
+    margin-top: .5rem;
+    opacity: .6;
 }

@@ -4,8 +4,9 @@ import { ReactComponent as MarcaRegistrada } from 'assets/marca_registrada.svg'
 export default function Rodape() {
     return (
         <footer className={styles.rodape}>
-            Desenvolvido por Alura |
-            <MarcaRegistrada/> 
+            <MarcaRegistrada/>
+            <span>|</span> <span> Desenvolvido por Alura</span>
+            
         </footer>
     )
 }
