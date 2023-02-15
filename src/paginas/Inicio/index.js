@@ -2,6 +2,7 @@ import Banner from "componentes/Banner";
 import styles from './Inicio.module.css';
 
 import posts from 'json/posts.json';
+import Post from "componentes/Post";
 
 
 export default function Inicio() {
@@ -12,7 +13,7 @@ export default function Inicio() {
             <ul className={styles.posts}>
                 {posts.map((post) => (
                     <li key={post.id}>
-                        Post...
+                        <Post post={post} />
                     </li>
                 ))}
             </ul>
