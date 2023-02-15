@@ -1,8 +1,16 @@
+import Inicio from "./paginas/Inicio";
+import SobreMim from "./paginas/SobreMim";
+
+
 function App() {
+
+  console.log(window.location);
+
+  const pagina = window.location.pathname === '/' ? <Inicio /> : <SobreMim />
   return (
 
-    <h1>Olá Mundo</h1>
-    
+    pagina
+
   );
 }
 
