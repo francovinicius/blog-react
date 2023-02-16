@@ -25,7 +25,6 @@ function AppRoutes() {
 
         
         <Route path="*" element={<NaoEncontrada/>} />
-        <Route path="posts/:id*" element={<NaoEncontrada/>} />
       </Routes>
 
       <Rodape />
